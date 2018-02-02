@@ -1,0 +1,185 @@
+.main{
+  padding: 15em 1.5em 14em 0em;
+  background: rgba(10,10,10,1);
+  background: -moz-linear-gradient(45deg, rgba(10,10,10,1) 0%, rgba(61,61,61,1) 100%);
+  background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(10,10,10,1)), color-stop(100%, rgba(61,61,61,1)));
+  background: -webkit-linear-gradient(45deg, rgba(10,10,10,1) 0%, rgba(61,61,61,1) 100%);
+  background: -o-linear-gradient(45deg, rgba(10,10,10,1) 0%, rgba(61,61,61,1) 100%);
+  background: -ms-linear-gradient(45deg, rgba(10,10,10,1) 0%, rgba(61,61,61,1) 100%);
+  background: linear-gradient(45deg, rgba(10,10,10,1) 0%, rgba(61,61,61,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0a0a0a', endColorstr='#3d3d3d', GradientType=1 );
+}
+
+.main2{
+  background: rgba(0,209,115,1);
+  background: -moz-linear-gradient(45deg, rgba(0,209,115,1) 0%, rgba(17,235,191,1) 100%);
+  background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(0,209,115,1)), color-stop(100%, rgba(17,235,191,1)));
+  background: -webkit-linear-gradient(45deg, rgba(0,209,115,1) 0%, rgba(17,235,191,1) 100%);
+  background: -o-linear-gradient(45deg, rgba(0,209,115,1) 0%, rgba(17,235,191,1) 100%);
+  background: -ms-linear-gradient(45deg, rgba(0,209,115,1) 0%, rgba(17,235,191,1) 100%);
+  background: linear-gradient(45deg, rgba(0,209,115,1) 0%, rgba(17,235,191,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00d173', endColorstr='#11ebbf', GradientType=1 );
+}
+
+.main3{
+  padding: 5em 5em 5em 5em;
+  background: rgba(0,209,115,1);
+  background: -moz-linear-gradient(45deg, rgba(0,209,115,1) 0%, rgba(17,235,191,1) 100%);
+  background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(0,209,115,1)), color-stop(100%, rgba(17,235,191,1)));
+  background: -webkit-linear-gradient(45deg, rgba(0,209,115,1) 0%, rgba(17,235,191,1) 100%);
+  background: -o-linear-gradient(45deg, rgba(0,209,115,1) 0%, rgba(17,235,191,1) 100%);
+  background: -ms-linear-gradient(45deg, rgba(0,209,115,1) 0%, rgba(17,235,191,1) 100%);
+  background: linear-gradient(45deg, rgba(0,209,115,1) 0%, rgba(17,235,191,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00d173', endColorstr='#11ebbf', GradientType=1 );}
+
+
+  .main4{
+    padding: 0em 0em 0em 0em;
+    background: rgba(0,0,0,1);
+    background: -moz-linear-gradient(45deg, rgba(0,0,0,1) 0%, rgba(74,0,74,1) 69%, rgba(148,0,148,1) 100%);
+    background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(0,0,0,1)), color-stop(69%, rgba(74,0,74,1)), color-stop(100%, rgba(148,0,148,1)));
+    background: -webkit-linear-gradient(45deg, rgba(0,0,0,1) 0%, rgba(74,0,74,1) 69%, rgba(148,0,148,1) 100%);
+    background: -o-linear-gradient(45deg, rgba(0,0,0,1) 0%, rgba(74,0,74,1) 69%, rgba(148,0,148,1) 100%);
+    background: -ms-linear-gradient(45deg, rgba(0,0,0,1) 0%, rgba(74,0,74,1) 69%, rgba(148,0,148,1) 100%);
+    background: linear-gradient(45deg, rgba(0,0,0,1) 0%, rgba(74,0,74,1) 69%, rgba(148,0,148,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#940094', GradientType=1 );
+  }
+
+//GENERAL
+
+h1{
+  color:#fff;
+  font-weight: 700;
+}
+
+
+// ABOUT/PROFILE
+
+#profile{
+  background-image: url('../img/profile-min.png');
+  background-size: cover;
+  height: 320px;
+  width: 320px;
+  background-repeat: no-repeat;
+  border-radius: 500px;
+  margin: 2em auto;
+}
+.cr{
+  color:#C9484E;
+}
+.id{
+  color:#3992EF;
+}
+.cl{
+  color:#C66D3B;
+}
+.qu{
+  color:#6AB979;
+}
+#codetext{
+  color:#444;
+  font-family: monospace;
+}
+#codetext h1{
+  font-weight: 400;
+  color:#444;
+  font-family: monospace;
+  font-size: 50px;
+}
+#codetext h3{
+  margin-left: 50px;
+}
+
+// SKILLS
+
+.primary-skill{
+
+}
+
+// SKILL - ICONS
+
+#html5{
+  height: 250px;
+  background-image: url('https://cdn0.iconfinder.com/data/icons/HTML5/256/HTML_Logo.png');
+  background-position: center;
+  background-size: 200px 200px;
+  background-repeat: no-repeat;
+
+}
+#css3{
+  height: 250px;
+  background-image: url('https://cdn4.iconfinder.com/data/icons/flat-brand-logo-2/512/css3-256.png');
+  background-position: center;
+  background-size: 230px 230px;
+  background-repeat: no-repeat;
+}
+
+#bs{
+  height: 250px;
+  background-image: url('https://wiki.smu.edu.sg/is480/img_auth.php/thumb/1/10/Tweetboard_bootstrap_logo.png/250px-Tweetboard_bootstrap_logo.png');
+  background-position: center;
+  background-size: 230px 150px;
+  background-repeat: no-repeat;
+}
+
+#js{
+  height: 250px;
+  background-image: url('https://wiki.smu.edu.sg/is480/img_auth.php/thumb/c/ca/Tweetboard_javascript_logo.png/250px-Tweetboard_javascript_logo.png');
+  background-position: center;
+  background-size: 230px 150px;
+  background-repeat: no-repeat;
+}
+
+#sass{
+  height: 250px;
+  background-image: url('http://andrewborstein.github.io/portfolio/static/img/sass.png');
+  background-position: center;
+  background-size: 200px 150px;
+  background-repeat: no-repeat;
+}
+#jquery{
+  height: 250px;
+  background-image: url('http://andrewborstein.github.io/portfolio/static/img/jquery.png');
+  background-position: center;
+  background-size: 180px 160px;
+  background-repeat: no-repeat;
+}
+#git{
+  height: 250px;
+  background-image: url('https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png');
+  background-position: center;
+  background-size: 150px 150px;
+  background-repeat: no-repeat;
+}
+
+// MEDIA QUERIES
+
+@media(max-width:1000px){
+  #codetext h1{
+    font-weight: 400;
+    color:#444;
+    font-family: monospace;
+    font-size: 30px;
+  }
+  #codetext h3{
+    margin-left: 50px;
+    font-size: 20px;
+  }
+ .col-sm-5{
+ }
+  #profile{
+    background-image: url('../img/profile-min.png');
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    background-repeat: no-repeat;
+    border-radius: 500px;
+    margin: 2em auto;
+  }
+}
+
+@media(max-width:777px){
+  #codetext{
+    padding-left: 4em;
+  }
+}

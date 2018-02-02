@@ -1,0 +1,252 @@
+/* line 1, C:/Users/Kirtap/Desktop/WebProjects/1Resturant/scss/partials/_header.scss */
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background: #f4f4f4;
+}
+
+/* line 9, C:/Users/Kirtap/Desktop/WebProjects/1Resturant/scss/partials/_header.scss */
+.mainrow {
+  background: #f4f4f4;
+}
+
+/* line 13, C:/Users/Kirtap/Desktop/WebProjects/1Resturant/scss/partials/_header.scss */
+.mainpic {
+  margin: 4em auto 0;
+  background-image: url("https://static.pexels.com/photos/263041/pexels-photo-263041.jpeg");
+  height: 890px;
+  background-repeat: no-repeat;
+  background-size: 2100px auto;
+  background-position: top;
+  background-attachment: fixed;
+  filter: brightness(0.8);
+}
+
+/* line 25, C:/Users/Kirtap/Desktop/WebProjects/1Resturant/scss/partials/_header.scss */
+.mainpic2 {
+  margin: 4em 0 0 0;
+  background-image: url("https://static.pexels.com/photos/3498/italian-pizza-restaurant-italy.jpg");
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/* line 34, C:/Users/Kirtap/Desktop/WebProjects/1Resturant/scss/partials/_header.scss */
+.headr {
+  margin: -45em auto 0;
+}
+
+/* line 38, C:/Users/Kirtap/Desktop/WebProjects/1Resturant/scss/partials/_header.scss */
+.mainpictext {
+  color: #f4f4f4;
+  font-size: 150px;
+  text-shadow: 4px 4px #222;
+  font-weight: 1000;
+  z-index: 1;
+}
+
+/* line 46, C:/Users/Kirtap/Desktop/WebProjects/1Resturant/scss/partials/_header.scss */
+.mainpictext2 {
+  color: #f4f4f4;
+  font-size: 70px;
+  text-shadow: 2px 2px #222;
+  font-weight: 800;
+  z-index: 1;
+  font-family: 'Old Standard TT', serif;
+}
+
+/* line 56, C:/Users/Kirtap/Desktop/WebProjects/1Resturant/scss/partials/_header.scss */
+.fa-chevron-down {
+  margin: 0 auto;
+  color: #fff;
+  z-index: 1;
+  padding: 2em;
+  text-shadow: 4px 4px #222;
+}
+
+/* line 65, C:/Users/Kirtap/Desktop/WebProjects/1Resturant/scss/partials/_header.scss */
+.main-content {
+  margin: 890px auto 0;
+  background-color: #fff;
+}
+
+/* line 71, C:/Users/Kirtap/Desktop/WebProjects/1Resturant/scss/partials/_header.scss */
+.maintext-header {
+  color: #333;
+  font-size: 40px;
+  font-weight: 400;
+}
+
+/* line 79, C:/Users/Kirtap/Desktop/WebProjects/1Resturant/scss/partials/_header.scss */
+.maintext {
+  color: #666;
+  font-size: 30px;
+  padding: 50px 50px 0;
+}
+
+/* line 85, C:/Users/Kirtap/Desktop/WebProjects/1Resturant/scss/partials/_header.scss */
+.maintext-para {
+  padding-top: 25px;
+  color: #333;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: 'Old Standard TT', serif;
+}
+
+/* line 94, C:/Users/Kirtap/Desktop/WebProjects/1Resturant/scss/partials/_header.scss */
+.menuitem {
+  padding: 30px;
+}
+
+/* line 98, C:/Users/Kirtap/Desktop/WebProjects/1Resturant/scss/partials/_header.scss */
+.picitem1 {
+  margin: 4em 0 0 0;
+  background-image: url("https://static.pexels.com/photos/46239/salmon-dish-food-meal-46239.jpeg");
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/* line 106, C:/Users/Kirtap/Desktop/WebProjects/1Resturant/scss/partials/_header.scss */
+.picitem2 {
+  margin: 4em 0 0 0;
+  background-image: url("https://static.pexels.com/photos/106343/pexels-photo-106343.jpeg");
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/* line 114, C:/Users/Kirtap/Desktop/WebProjects/1Resturant/scss/partials/_header.scss */
+.picitem3 {
+  margin: 4em 0 0 0;
+  background-image: url("https://static.pexels.com/photos/132694/pexels-photo-132694.jpeg");
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/* line 3, C:/Users/Kirtap/Desktop/WebProjects/1Resturant/scss/partials/_navbar.scss */
+.logo {
+  position: fixed;
+  float: left;
+  margin: 16px 36px;
+  color: #111;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+/* line 12, C:/Users/Kirtap/Desktop/WebProjects/1Resturant/scss/partials/_navbar.scss */
+.since {
+  position: fixed;
+  float: left;
+  margin: 50px 65px 16px;
+  color: #111;
+  font-size: 10px;
+  font-family: 'Old Standard TT', serif;
+}
+
+/* line 21, C:/Users/Kirtap/Desktop/WebProjects/1Resturant/scss/partials/_navbar.scss */
+nav {
+  z-index: 2;
+  position: fixed;
+  width: 100%;
+}
+
+/* line 27, C:/Users/Kirtap/Desktop/WebProjects/1Resturant/scss/partials/_navbar.scss */
+nav ul {
+  list-style: none;
+  background: #fff;
+  overflow: hidden;
+  padding: 0 0 0 0;
+  text-align: center;
+  margin: 0 0 0 0;
+  transition: 1s;
+}
+
+/* line 37, C:/Users/Kirtap/Desktop/WebProjects/1Resturant/scss/partials/_navbar.scss */
+nav.black ul {
+  background: #fff;
+}
+
+/* line 40, C:/Users/Kirtap/Desktop/WebProjects/1Resturant/scss/partials/_navbar.scss */
+nav ul li {
+  text-align: center;
+  display: inline-block;
+  padding: 25px 20px 20px 30px;
+}
+
+/* line 47, C:/Users/Kirtap/Desktop/WebProjects/1Resturant/scss/partials/_navbar.scss */
+nav ul li a:hover, nav ul li a:active, nav ul li a:visited {
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+  transition: 0.5s;
+}
+
+/* line 53, C:/Users/Kirtap/Desktop/WebProjects/1Resturant/scss/partials/_navbar.scss */
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+  transition: 0.5s;
+  font-weight: 700;
+}
+
+/* line 62, C:/Users/Kirtap/Desktop/WebProjects/1Resturant/scss/partials/_navbar.scss */
+.menu-icon {
+  width: 100%;
+  background: #fff;
+  text-align: right;
+  box-sizing: border-box;
+  padding: 15px 24px;
+  cursor: pointer;
+  color: #000;
+  display: none;
+}
+
+@media (max-width: 700px) {
+  /* line 74, C:/Users/Kirtap/Desktop/WebProjects/1Resturant/scss/partials/_navbar.scss */
+  .logo {
+    position: fixed;
+    top: 0;
+    margin-top: 16px;
+  }
+  /* line 79, C:/Users/Kirtap/Desktop/WebProjects/1Resturant/scss/partials/_navbar.scss */
+  .since {
+    position: fixed;
+    float: left;
+    margin: -15px 65px 0px;
+  }
+  /* line 86, C:/Users/Kirtap/Desktop/WebProjects/1Resturant/scss/partials/_navbar.scss */
+  nav ul {
+    max-height: 0px;
+    background: #fff;
+  }
+  /* line 91, C:/Users/Kirtap/Desktop/WebProjects/1Resturant/scss/partials/_navbar.scss */
+  nav.black ul {
+    background: #fff;
+  }
+  /* line 94, C:/Users/Kirtap/Desktop/WebProjects/1Resturant/scss/partials/_navbar.scss */
+  .showing {
+    max-height: 25em;
+  }
+  /* line 97, C:/Users/Kirtap/Desktop/WebProjects/1Resturant/scss/partials/_navbar.scss */
+  nav ul li {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 24px 0;
+    text-align: center;
+  }
+  /* line 104, C:/Users/Kirtap/Desktop/WebProjects/1Resturant/scss/partials/_navbar.scss */
+  .menu-icon {
+    display: block;
+  }
+}
+
+/*# sourceMappingURL=../css/style.map */
