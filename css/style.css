@@ -1,136 +1,3 @@
-/* line 1, C:/Users/Kirtap/Desktop/WebProjects/1Resturant/scss/partials/_header.scss */
-body {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  font-family: 'Montserrat', sans-serif;
-  background: #f4f4f4;
-}
-
-/* line 9, C:/Users/Kirtap/Desktop/WebProjects/1Resturant/scss/partials/_header.scss */
-.mainrow {
-  background: #f4f4f4;
-}
-
-/* line 13, C:/Users/Kirtap/Desktop/WebProjects/1Resturant/scss/partials/_header.scss */
-.mainpic {
-  margin: 4em auto 0;
-  background-image: url("https://static.pexels.com/photos/263041/pexels-photo-263041.jpeg");
-  height: 890px;
-  background-repeat: no-repeat;
-  background-size: 2100px auto;
-  background-position: top;
-  background-attachment: fixed;
-  filter: brightness(0.8);
-}
-
-/* line 25, C:/Users/Kirtap/Desktop/WebProjects/1Resturant/scss/partials/_header.scss */
-.mainpic2 {
-  margin: 4em 0 0 0;
-  background-image: url("https://static.pexels.com/photos/3498/italian-pizza-restaurant-italy.jpg");
-  height: 50vh;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-}
-
-/* line 34, C:/Users/Kirtap/Desktop/WebProjects/1Resturant/scss/partials/_header.scss */
-.headr {
-  margin: -45em auto 0;
-}
-
-/* line 38, C:/Users/Kirtap/Desktop/WebProjects/1Resturant/scss/partials/_header.scss */
-.mainpictext {
-  color: #f4f4f4;
-  font-size: 150px;
-  text-shadow: 4px 4px #222;
-  font-weight: 1000;
-  z-index: 1;
-}
-
-/* line 46, C:/Users/Kirtap/Desktop/WebProjects/1Resturant/scss/partials/_header.scss */
-.mainpictext2 {
-  color: #f4f4f4;
-  font-size: 70px;
-  text-shadow: 2px 2px #222;
-  font-weight: 800;
-  z-index: 1;
-  font-family: 'Old Standard TT', serif;
-}
-
-/* line 56, C:/Users/Kirtap/Desktop/WebProjects/1Resturant/scss/partials/_header.scss */
-.fa-chevron-down {
-  margin: 0 auto;
-  color: #fff;
-  z-index: 1;
-  padding: 2em;
-  text-shadow: 4px 4px #222;
-}
-
-/* line 65, C:/Users/Kirtap/Desktop/WebProjects/1Resturant/scss/partials/_header.scss */
-.main-content {
-  margin: 890px auto 0;
-  background-color: #fff;
-}
-
-/* line 71, C:/Users/Kirtap/Desktop/WebProjects/1Resturant/scss/partials/_header.scss */
-.maintext-header {
-  color: #333;
-  font-size: 40px;
-  font-weight: 400;
-}
-
-/* line 79, C:/Users/Kirtap/Desktop/WebProjects/1Resturant/scss/partials/_header.scss */
-.maintext {
-  color: #666;
-  font-size: 30px;
-  padding: 50px 50px 0;
-}
-
-/* line 85, C:/Users/Kirtap/Desktop/WebProjects/1Resturant/scss/partials/_header.scss */
-.maintext-para {
-  padding-top: 25px;
-  color: #333;
-  font-size: 20px;
-  font-weight: 600;
-  font-family: 'Old Standard TT', serif;
-}
-
-/* line 94, C:/Users/Kirtap/Desktop/WebProjects/1Resturant/scss/partials/_header.scss */
-.menuitem {
-  padding: 30px;
-}
-
-/* line 98, C:/Users/Kirtap/Desktop/WebProjects/1Resturant/scss/partials/_header.scss */
-.picitem1 {
-  margin: 4em 0 0 0;
-  background-image: url("https://static.pexels.com/photos/46239/salmon-dish-food-meal-46239.jpeg");
-  height: 400px;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-}
-
-/* line 106, C:/Users/Kirtap/Desktop/WebProjects/1Resturant/scss/partials/_header.scss */
-.picitem2 {
-  margin: 4em 0 0 0;
-  background-image: url("https://static.pexels.com/photos/106343/pexels-photo-106343.jpeg");
-  height: 400px;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-}
-
-/* line 114, C:/Users/Kirtap/Desktop/WebProjects/1Resturant/scss/partials/_header.scss */
-.picitem3 {
-  margin: 4em 0 0 0;
-  background-image: url("https://static.pexels.com/photos/132694/pexels-photo-132694.jpeg");
-  height: 400px;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-}
-
 /* line 3, C:/Users/Kirtap/Desktop/WebProjects/1Resturant/scss/partials/_navbar.scss */
 .logo {
   position: fixed;
@@ -247,6 +114,231 @@ nav ul li a {
   .menu-icon {
     display: block;
   }
+}
+
+/* line 1, C:/Users/Kirtap/Desktop/WebProjects/1Resturant/scss/partials/_header.scss */
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background: #f4f4f4;
+}
+
+/* line 9, C:/Users/Kirtap/Desktop/WebProjects/1Resturant/scss/partials/_header.scss */
+.mainrow {
+  background: #f4f4f4;
+}
+
+/* line 13, C:/Users/Kirtap/Desktop/WebProjects/1Resturant/scss/partials/_header.scss */
+.mainpic {
+  margin: 4em auto 0;
+  background-image: url("https://static.pexels.com/photos/263041/pexels-photo-263041.jpeg");
+  height: 890px;
+  background-repeat: no-repeat;
+  background-size: 2100px auto;
+  background-position: top;
+  background-attachment: fixed;
+  filter: brightness(0.8);
+}
+
+/* line 24, C:/Users/Kirtap/Desktop/WebProjects/1Resturant/scss/partials/_header.scss */
+.headr {
+  margin: -45em auto 0;
+}
+
+/* line 28, C:/Users/Kirtap/Desktop/WebProjects/1Resturant/scss/partials/_header.scss */
+.mainpictext {
+  color: #f4f4f4;
+  font-size: 150px;
+  text-shadow: 4px 4px #222;
+  font-weight: 1000;
+  z-index: 1;
+}
+
+/* line 36, C:/Users/Kirtap/Desktop/WebProjects/1Resturant/scss/partials/_header.scss */
+.mainpictext2 {
+  color: #f4f4f4;
+  font-size: 70px;
+  text-shadow: 2px 2px #222;
+  font-weight: 800;
+  z-index: 1;
+  font-family: 'Old Standard TT', serif;
+}
+
+/* line 45, C:/Users/Kirtap/Desktop/WebProjects/1Resturant/scss/partials/_header.scss */
+.fa-chevron-down {
+  margin: 0 auto;
+  color: #fff;
+  z-index: 1;
+  padding: 2em 2em 1em 2em;
+  text-shadow: 4px 4px #222;
+}
+
+/* line 52, C:/Users/Kirtap/Desktop/WebProjects/1Resturant/scss/partials/_header.scss */
+.fa-angle-double-right {
+  margin: 0 auto;
+  color: #f4f4f4;
+  z-index: 1;
+}
+
+/* line 7, C:/Users/Kirtap/Desktop/WebProjects/1Resturant/scss/partials/content.scss */
+.mainpic2 {
+  margin: 0 0 0 0;
+  background-image: url("https://cdn.pixabay.com/photo/2018/01/15/17/32/table-3084384_960_720.jpg");
+  height: 50vh;
+  background-size: cover;
+  background-position: top;
+  background-attachment: fixed;
+}
+
+/* line 18, C:/Users/Kirtap/Desktop/WebProjects/1Resturant/scss/partials/content.scss */
+.about {
+  padding: 0;
+  margin: 0;
+  background: #111;
+  line-height: 30px;
+}
+
+/* line 25, C:/Users/Kirtap/Desktop/WebProjects/1Resturant/scss/partials/content.scss */
+.history {
+  height: 50vh;
+}
+
+/* line 29, C:/Users/Kirtap/Desktop/WebProjects/1Resturant/scss/partials/content.scss */
+.historytext {
+  background: #333;
+  font-size: 17px;
+  padding: 5em 5em;
+  height: 50vh;
+  margin: 0 auto;
+  line-height: 30px;
+}
+
+/* line 38, C:/Users/Kirtap/Desktop/WebProjects/1Resturant/scss/partials/content.scss */
+.historyparag {
+  color: #999;
+}
+
+/* line 42, C:/Users/Kirtap/Desktop/WebProjects/1Resturant/scss/partials/content.scss */
+.abouttext-header {
+  margin-top: -1em;
+  color: #555;
+  font-size: 25px;
+  font-weight: 400;
+  padding-bottom: 0.4em;
+}
+
+/* line 50, C:/Users/Kirtap/Desktop/WebProjects/1Resturant/scss/partials/content.scss */
+.historytext-header {
+  color: #fff;
+  font-size: 25px;
+  font-weight: 400;
+  padding-bottom: 0.2em;
+}
+
+/* line 57, C:/Users/Kirtap/Desktop/WebProjects/1Resturant/scss/partials/content.scss */
+.maintext {
+  color: #888;
+  font-size: 17px;
+  padding: 7em 5em 0 5em;
+  margin: 0 auto;
+}
+
+/* line 62, C:/Users/Kirtap/Desktop/WebProjects/1Resturant/scss/partials/content.scss */
+.maintext2 {
+  color: #888;
+  background: #fff;
+  font-size: 17px;
+  padding: 7em 5em 0 5em;
+  margin: 0 auto;
+}
+
+/* line 70, C:/Users/Kirtap/Desktop/WebProjects/1Resturant/scss/partials/content.scss */
+.abouttext-para {
+  padding-top: 0.6em;
+  color: #999;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: 'Old Standard TT', serif;
+  font-style: oblique;
+}
+
+/* line 81, C:/Users/Kirtap/Desktop/WebProjects/1Resturant/scss/partials/content.scss */
+.restaurant-menu {
+  width: 300px;
+  height: 100px;
+  padding: 1em 1em;
+  background: rgba(255, 255, 255, 0.5);
+  margin: 10em auto;
+  cursor: pointer;
+  transition: 1s;
+}
+
+/* line 89, C:/Users/Kirtap/Desktop/WebProjects/1Resturant/scss/partials/content.scss */
+.restaurant-menu:hover {
+  margin: 9em auto;
+  transition: 1s;
+}
+
+/* line 93, C:/Users/Kirtap/Desktop/WebProjects/1Resturant/scss/partials/content.scss */
+.restaurant-menu h1 {
+  font-size: 27px;
+  color: #222;
+  font-weight: 600;
+  transition: 1s;
+}
+
+/* line 98, C:/Users/Kirtap/Desktop/WebProjects/1Resturant/scss/partials/content.scss */
+.restaurant-menu h1:hover {
+  transition: 1s;
+}
+
+/* line 105, C:/Users/Kirtap/Desktop/WebProjects/1Resturant/scss/partials/content.scss */
+.hours {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background: #111;
+}
+
+/* line 115, C:/Users/Kirtap/Desktop/WebProjects/1Resturant/scss/partials/content.scss */
+#map {
+  width: 100%;
+  height: 500px;
+}
+
+/* line 121, C:/Users/Kirtap/Desktop/WebProjects/1Resturant/scss/partials/content.scss */
+.picitem1 {
+  height: 50vh;
+  background-image: url("https://static.pexels.com/photos/66639/pexels-photo-66639.jpeg");
+  background-size: cover;
+  background-position: left;
+}
+
+/* line 128, C:/Users/Kirtap/Desktop/WebProjects/1Resturant/scss/partials/content.scss */
+.picitem2 {
+  height: 50vh;
+  background-image: url("https://static.pexels.com/photos/46239/salmon-dish-food-meal-46239.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+
+/* line 135, C:/Users/Kirtap/Desktop/WebProjects/1Resturant/scss/partials/content.scss */
+.picitem3 {
+  margin: 0 0 0 0;
+  background-image: url("https://static.pexels.com/photos/6539/black-and-white-italian-people-street.jpg");
+  height: 50vh;
+  background-size: cover;
+  background-position: top;
+  background-attachment: fixed;
+}
+
+/* line 147, C:/Users/Kirtap/Desktop/WebProjects/1Resturant/scss/partials/content.scss */
+#contact {
+  padding: 7em;
+  width: 100%;
+  height: 300px;
 }
 
 /*# sourceMappingURL=../css/style.map */

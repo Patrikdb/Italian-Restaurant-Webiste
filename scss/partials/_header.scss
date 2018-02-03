@@ -12,23 +12,13 @@ body{
 
 .mainpic{
   margin: 4em auto 0;
-//background-image: url('https://static.pexels.com/photos/2232/vegetables-italian-pizza-restaurant.jpg');
-background-image: url('https://static.pexels.com/photos/263041/pexels-photo-263041.jpeg');
-//background-image: url('https://static.pexels.com/photos/56014/pizza-pizza-service-italian-eat-56014.jpeg');
+  background-image: url('https://static.pexels.com/photos/263041/pexels-photo-263041.jpeg');
   height: 890px;
   background-repeat: no-repeat;
   background-size: 2100px auto;
   background-position: top;
   background-attachment: fixed;
   filter:brightness(0.8);
-}
-.mainpic2{
-  margin: 4em 0 0 0;
-  background-image: url('https://static.pexels.com/photos/3498/italian-pizza-restaurant-italy.jpg');
-  height: 50vh;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
 }
 
 .headr{
@@ -49,7 +39,6 @@ background-image: url('https://static.pexels.com/photos/263041/pexels-photo-2630
   text-shadow: 2px 2px #222;
   font-weight: 800;
   z-index: 1;
-  //font-family: 'Cinzel', serif;
   font-family: 'Old Standard TT', serif;
 }
 
@@ -57,65 +46,11 @@ background-image: url('https://static.pexels.com/photos/263041/pexels-photo-2630
   margin: 0 auto;
   color:#fff;
   z-index: 1;
-  padding: 2em;
+  padding: 2em 2em 1em 2em;
   text-shadow: 4px 4px #222;
-
 }
-
-.main-content{
-  //max-width: 900px;
-  margin: 890px auto 0;
-  background-color: #fff;
-}
-
-.maintext-header{
-  color: #333;
-  font-size: 40px;
-  font-weight: 400;
-
-
-}
-
-.maintext{
-  color: #666;
-  font-size: 30px;
-  padding: 50px 50px 0;
-}
-
-.maintext-para{
-  padding-top: 25px;
-  color: #333;
-  font-size: 20px;
-  font-weight: 600;
-  font-family: 'Old Standard TT', serif;
-
-}
-
-.menuitem{
-  padding: 30px;
-}
-
-.picitem1{
-margin: 4em 0 0 0;
-background-image: url('https://static.pexels.com/photos/46239/salmon-dish-food-meal-46239.jpeg');
-height: 400px;
-background-size: cover;
-background-position: center;
-background-attachment: fixed;
-}
-.picitem2{
-margin: 4em 0 0 0;
-background-image: url('https://static.pexels.com/photos/106343/pexels-photo-106343.jpeg');
-height: 400px;
-background-size: cover;
-background-position: center;
-background-attachment: fixed;
-}
-.picitem3{
-margin: 4em 0 0 0;
-background-image: url('https://static.pexels.com/photos/132694/pexels-photo-132694.jpeg');
-height: 400px;
-background-size: cover;
-background-position: center;
-background-attachment: fixed;
+.fa-angle-double-right{
+  margin: 0 auto;
+  color:#f4f4f4;
+  z-index: 1;
 }
