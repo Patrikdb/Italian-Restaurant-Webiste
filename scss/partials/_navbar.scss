@@ -3,7 +3,7 @@
 .logo{
   position: fixed;
   float: left;
-  margin: 16px 36px;
+  margin: 12px 36px;
   color:#111;
   font-weight: bold;
   font-size: 24px;
@@ -12,7 +12,7 @@
 .since{
   position: fixed;
   float: left;
-  margin: 50px 65px 16px;
+  margin: 45px 65px 16px;
   color:#111;
   font-size: 10px;
   font-family: 'Old Standard TT', serif;
@@ -31,7 +31,6 @@ nav ul {
   padding: 0 0 0 0;
   text-align: center;
   margin: 0 0 0 0;
-  transition: 1s;
 }
 
 nav.black ul {
@@ -40,7 +39,7 @@ nav.black ul {
 nav ul li {
   text-align: center;
   display: inline-block;
-  padding: 25px 20px 20px 30px;
+  padding: 24px 20px 20px 30px;
 
 }
 
@@ -74,22 +73,25 @@ nav ul li a{
   .logo{
     position: fixed;
     top: 0;
-    margin-top: 16px;
+    margin-top: 12px;
   }
   .since{
     position: fixed;
     float: left;
-    margin: -15px 65px 0px;
+    margin: -20px 65px 0px;
 
   }
 
   nav ul {
     max-height: 0px;
     background: #fff;
+    padding-bottom: 3px;
+
   }
 
   nav.black ul{
     background: #fff;
+
   }
   .showing {
     max-height: 25em;
@@ -97,7 +99,7 @@ nav ul li a{
   nav ul li {
     box-sizing: border-box;
     width: 100%;
-    padding: 24px 0;
+    padding: 24px 20px 20px 30px;
     text-align: center;
   }
 
